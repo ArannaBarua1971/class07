@@ -7,6 +7,25 @@
     top:100px;
     position:fixed;
 }
+.nav ul{
+    position: absolute;
+    right: 200px;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding:5px;
+    transition: all 0.1s linear;
+}
+.nav ul li a:hover{
+    background-color: #5900ff;
+}
 .part01{
     margin-left:-2px;
     height: 40px;
